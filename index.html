@@ -70,9 +70,9 @@
         </ul>
       </Navbar>
     </header>
-    <main class="container-lg my-4 me-3">
+    <main class="container-lg mt-4">
       <div class="row">
-        <div class="col-7">
+        <div class="col-8">
           <div class="row" id="angular-main-row">
             <h2>Angular</h2>
             <p>
@@ -88,7 +88,7 @@
             <h2>Differences between Angular and AngularJS</h2>
             <hr />
             <p>Google designed Angular as a ground-up rewrite of AngularJS.</p>
-            <ul>
+            <ul class="me-4 ms-4 px-4">
               <li>
                 Angular does not have a concept of "scope" or controllers,
                 instead it uses a hierarchy of components as its primary
@@ -166,7 +166,7 @@
               4.x.x.
             </p>
             <p>Features in version 4.3</p>
-            <ul>
+            <ul class="me-4 ms-4 px-4">
               <li>
                 Introducing <i>HttpClient</i>, a smaller, easier to use, and
                 more powerful library for making HTTP Requests.
@@ -219,7 +219,7 @@
               Web workers, TypeScript 3.4 support, and Angular Ivy as an opt-in
               preview. Angular Ivy opt-in preview includes:
             </p>
-            <ul>
+            <ul class="me-4 ms-4 px-4">
               <li>
                 Generated code that is easier to read and debug at runtime
               </li>
@@ -238,7 +238,7 @@
               addition to hundreds of bug fixes, the Ivy compiler and runtime
               offers numerous advantages:
             </p>
-            <ul>
+            <ul class="me-4 ms-4 px-4">
               <li>Smaller bundle sizes</li>
               <li>Faster testing</li>
               <li>Better debugging</li>
@@ -252,7 +252,7 @@
           <div class="row" id="version10-row">
             <h3>Version 10</h3>
             <p>Angular 10 was released on June 24, 2020.</p>
-            <ul>
+            <ul class="me-4 ms-4 px-4">
               <li>New Date Range Picker (Material UI library)</li>
               <li>Warnings about CommonJS imports</li>
               <li>Optional Stricter Settings</li>
@@ -283,50 +283,52 @@
               of long-term support (LTS), during which only critical fixes and
               security patches are released.
             </p>
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col">Version</th>
-                  <th scope="col">Status</th>
-                  <th scope="col">Released</th>
-                  <th scope="col">Active Ends</th>
-                  <th scope="col">LTS Ends</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>^10.0.0</td>
-                  <td>Active (LTS)</td>
-                  <td>Jun 24, 2020</td>
-                  <td>Dec 24, 2020</td>
-                  <td>Dec 24, 2021</td>
-                </tr>
+            <div class="me-0">
+              <table class="table table-bordered mb-1">
+                <thead>
+                  <tr>
+                    <th scope="col">Version</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Released</th>
+                    <th scope="col">Active Ends</th>
+                    <th scope="col">LTS Ends</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>^10.0.0</td>
+                    <td>Active (LTS)</td>
+                    <td>Jun 24, 2020</td>
+                    <td>Dec 24, 2020</td>
+                    <td>Dec 24, 2021</td>
+                  </tr>
 
-                <tr>
-                  <td>^9.0.0</td>
-                  <td>LTS</td>
-                  <td>Feb 6, 2020</td>
-                  <td>Aug 6, 2020</td>
-                  <td>Aug 6, 2021</td>
-                </tr>
+                  <tr>
+                    <td>^9.0.0</td>
+                    <td>LTS</td>
+                    <td>Feb 6, 2020</td>
+                    <td>Aug 6, 2020</td>
+                    <td>Aug 6, 2021</td>
+                  </tr>
 
-                <tr>
-                  <td>^8.0.0</td>
-                  <td>LTS</td>
-                  <td>May 28, 2019</td>
-                  <td>Nov 28, 2019</td>
-                  <td>Nov 28, 2020</td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="text-muted">
+                  <tr>
+                    <td>^8.0.0</td>
+                    <td>LTS</td>
+                    <td>May 28, 2019</td>
+                    <td>Nov 28, 2019</td>
+                    <td>Nov 28, 2020</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="text-muted ms-1 ps-2">
               <small><b>Table 1.</b> Supported Angular versions</small>
             </p>
           </div>
           <div class="row" id="libraries">
             <h3>Libraries</h3>
             <hr />
-            <h2>Angular Material</h2>
+            <h3>Angular Material</h3>
             <p>
               <i
                 >"Angular Material" redirects here. For the library of the
@@ -339,7 +341,7 @@
               Material Design in Angular.
             </p>
           </div>
-          <div class="row" id="video-tutorial">
+          <div class="row mb-4" id="video-tutorial">
             <h3>Video Tutorial</h3>
             <hr />
             <p>
@@ -348,7 +350,7 @@
               <a href="https://youtu.be/k5E2AVpwsko" target="_blank">Youtube</a
               >.
             </p>
-            <div class="ratio ratio-4x3">
+            <div class="d-flex justify-content-center">
               <iframe
                 width="560"
                 height="315"
@@ -368,8 +370,8 @@
             </p>
           </div>
         </div>
-        <div class="col-3 mt-5 ms-4 px-2">
-          <div class="border border-primary">
+        <div class="col-4 mt-5 px-2">
+          <div class="border border-primary ms-4">
             <div class="row" id="img">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
@@ -389,7 +391,7 @@
                 <p><b>License</b></p>
                 <p><b>Website</b></p>
               </div>
-              <div class="col-6 ms-4 ps-4">
+              <div class="col-7 ms-4 ps-4">
                 <p>Google</p>
                 <p>2.0 / 14 September 2016</p>
                 <p>>10.1.5 / 7 October 2020</p>
